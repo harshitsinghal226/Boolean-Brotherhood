@@ -1,0 +1,36 @@
+/* Navbar custom styles */
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-right {
+  margin-left: auto;
+}
+
+/* Registration form custom styles */
+.container > .w-100 {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.btn-success {
+  background: #19e619;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #13c013;
+}
+
+.form-control:focus {
+  border-color: #19e619;
+  box-shadow: 0 0 0 0.2rem rgba(25,230,25,0.15);
+}
+
+h2.fw-bold {
+  letter-spacing: 0.5px;
+} 
